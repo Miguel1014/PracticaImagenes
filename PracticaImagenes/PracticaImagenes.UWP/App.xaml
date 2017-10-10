@@ -1,0 +1,8 @@
+﻿<Application
+    x:Class="PracticaImagenes.UWP.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PracticaImagenes.UWP"
+    RequestedTheme="Light">
+
+</Application>

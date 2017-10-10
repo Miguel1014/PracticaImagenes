@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PracticaImagenes.Respuestas">
+    <ContentPage.Content>
+        <ScrollView>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+
+            </Grid.RowDefinitions>
+            <Label Text="Pregunta 1" FontSize="30" Grid.Column="0" Grid.Row="0"/>
+            <Label Text="Pregunta 2" FontSize="30" Grid.Column="0" Grid.Row="1"/>
+            <Label Text="Pregunta 3" FontSize="30" Grid.Column="0" Grid.Row="2"/>
+            <Label Text="Pregunta 4" FontSize="30" Grid.Column="0" Grid.Row="3"/>
+            <Label Text="Pregunta 5" FontSize="30" Grid.Column="0" Grid.Row="4"/>
+            <Label Text="Pregunta 6" FontSize="30" Grid.Column="0" Grid.Row="5"/>
+            <Label Text="Pregunta 7" FontSize="30" Grid.Column="0" Grid.Row="6"/>
+            <Label Text="Pregunta 8" FontSize="30" Grid.Column="0" Grid.Row="7"/>
+            <Label Text="Pregunta 9" FontSize="30" Grid.Column="0" Grid.Row="8"/>
+            <Label Text="Pregunta 10" FontSize="30" Grid.Column="0" Grid.Row="9"/>
+
+            <Label x:Name="P1" FontSize="30" Grid.Column="1" Grid.Row="0" HorizontalOptions="Center"/>
+            <Label x:Name="P2" FontSize="30" Grid.Column="1" Grid.Row="1" HorizontalOptions="Center"/>
+            <Label x:Name="P3" FontSize="30" Grid.Column="1" Grid.Row="2" HorizontalOptions="Center"/>
+            <Label x:Name="P4" FontSize="30" Grid.Column="1" Grid.Row="3" HorizontalOptions="Center"/>
+            <Label x:Name="P5" FontSize="30" Grid.Column="1" Grid.Row="4" HorizontalOptions="Center"/>
+            <Label x:Name="P6" FontSize="30" Grid.Column="1" Grid.Row="5" HorizontalOptions="Center"/>
+            <Label x:Name="P7" FontSize="30" Grid.Column="1" Grid.Row="6" HorizontalOptions="Center"/>
+            <Label x:Name="P8" FontSize="30" Grid.Column="1" Grid.Row="7" HorizontalOptions="Center"/>
+            <Label x:Name="P9" FontSize="30" Grid.Column="1" Grid.Row="8" HorizontalOptions="Center"/>
+            <Label x:Name="P10" FontSize="30" Grid.Column="1" Grid.Row="9" HorizontalOptions="Center"/>
+
+
+            <Label x:Name="R1" FontSize="30" Grid.Column="2" Grid.Row="0" HorizontalOptions="Center"/>
+            <Label x:Name="R2" FontSize="30" Grid.Column="2" Grid.Row="1" HorizontalOptions="Center"/>
+            <Label x:Name="R3" FontSize="30" Grid.Column="2" Grid.Row="2" HorizontalOptions="Center"/>
+            <Label x:Name="R4" FontSize="30" Grid.Column="2" Grid.Row="3" HorizontalOptions="Center"/>
+            <Label x:Name="R5" FontSize="30" Grid.Column="2" Grid.Row="4" HorizontalOptions="Center"/>
+            <Label x:Name="R6" FontSize="30" Grid.Column="2" Grid.Row="5" HorizontalOptions="Center"/>
+            <Label x:Name="R7" FontSize="30" Grid.Column="2" Grid.Row="6" HorizontalOptions="Center"/>
+            <Label x:Name="R8" FontSize="30" Grid.Column="2" Grid.Row="7" HorizontalOptions="Center"/>
+            <Label x:Name="R9" FontSize="30" Grid.Column="2" Grid.Row="8" HorizontalOptions="Center"/>
+            <Label x:Name="R10" FontSize="30" Grid.Column="2" Grid.Row="9" HorizontalOptions="Center"/>
+        </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
